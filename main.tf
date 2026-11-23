@@ -14,3 +14,8 @@ output "project_name" {
 output "environment" {
   value = local.environment
 }
+
+output "project_version" {
+  description = "Current version of the Terraform project"
+  value       = "1.1.0"
+}
