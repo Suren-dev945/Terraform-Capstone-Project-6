@@ -4,7 +4,7 @@ terraform {
 
 locals {
   project_name = "Terraform Capstone Project 6"
-  environment  = "development"
+  environment  = "testing"
 }
 
 output "project_name" {
